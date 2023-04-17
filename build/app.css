@@ -110,7 +110,7 @@ body {
     height: 66%; } }
 
 .loading-cover {
-  background: #ffff00;
+  background: #ff0000;
   height: 100vh;
   position: absolute;
   top: 0;
