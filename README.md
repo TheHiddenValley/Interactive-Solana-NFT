@@ -1,23 +1,21 @@
-# pacman-js
-[![Build Status](https://travis-ci.com/bward2/pacman-js.svg?branch=master)](https://travis-ci.com/bward2/pacman-js)
-[![Coverage Status](https://coveralls.io/repos/github/bward2/pacman-js/badge.svg?branch=master)](https://coveralls.io/github/bward2/pacman-js?branch=master)
-[![Code Style](https://img.shields.io/badge/code%20style-airbnb-brightgreen.svg)](https://github.com/airbnb/javascript)
+# Playable Gaming NFT Pacman
 
-Pacman clone made with Javascript, HTML, and CSS.
+This is a simple guide on how you can build an interactive NFT.
 
-### *__[Play it!](https://bward2.github.io/pacman-js/)__*
+Minted on exchange.art with a HTML file
 
-🍒🍓🍊🍎🍈👾🔔🔑
+As for reference, you can check out the NFT metadata here:
+https://exchange.art/editions/9GgtPJmstxBTrQE9NfF2ECoYPriWpZkMUSsh2nXyFXCM
+https://solana.fm/address/9GgtPJmstxBTrQE9NfF2ECoYPriWpZkMUSsh2nXyFXCM?cluster=mainnet-alpha
+https://solscan.io/token/9GgtPJmstxBTrQE9NfF2ECoYPriWpZkMUSsh2nXyFXCM#metadata
 
-## Development Instructions
+# Instructions
 
-This project makes use of *__[NodeJS](https://nodejs.org/en/)__*. Download it, then clone this repo and run the following commands:  
-1. `npm i` (Installs necessary packages for development)
-1. `gulp watch` (Watches changes to JS and SCSS files for continuous compilation)
-1. `npm run serve` (Hosts the files locally)
+Step 1: Deploy your app onto a website - https://play-pac.vercel.app/
+Step 2: Create a HTML File - Insert a link to the game within the HTML File.
+Step 3: NFT Metadata - Use an image file for the "image":"https://arweave.net/wDpswA2UO9wA1tCUMQwffPqwM_-0IFjJ0wduCczaioA?ext=png"
+Step 4: NFT Metadata - Ensure for your metadata under animation_url, you use your HTML file
+"animation_url":string"https://arweave.net/49tAdjRBmzKaMdMeIPJMnVSPLNWzL7BxSF__CuWXa0w?ext=html"
+Step 5: Mint the NFT
 
-The game can now be accessed at *__http://127.0.0.1:8080/index__*
-
-This project also utilizes *__[Husky](https://github.com/typicode/husky)__* to enforce best coding practices. The current thresholds are 0 linting errors upon commits (following Airbnb's standard), and 100% unit test code coverage upon pushes.
-
-Feel free to submit PRs and/or report any issues you find! 😃
+Congratulations!
